@@ -222,6 +222,10 @@
       <Project>{3ea61628-625d-4c89-afc6-5f60d51c1da8}</Project>
       <Name>Couchbase.AspNet</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\src\SampleProvider.AspNet\SampleProvider.AspNet.csproj">
+      <Project>{09d0653b-0c25-49fe-bcc7-b926fbc04c01}</Project>
+      <Name>SampleProvider.AspNet</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
